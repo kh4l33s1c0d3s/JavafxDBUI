@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="800.0" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.hawh.eei.isc.dbui.WSController">
+    <children>
+        <Label alignment="CENTER" prefHeight="27.0" prefWidth="250.0" text="Bitte wählen Sie eine Option" textAlignment="JUSTIFY">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+        <Button fx:id="NeuButton" alignment="CENTER" onAction="#switchToStart" prefHeight="27.0" prefWidth="215.0" text="Neuen Ehemaligen hinzufügen" />
+        <Button fx:id="AlleAnzeigenButton" alignment="CENTER" onAction="#switchToStart" prefHeight="27.0" prefWidth="215.0" text="Alle Ehemaligen anzeigen" />
+        <Button fx:id="EndeButton" alignment="CENTER" onAction="#switchToStart" prefHeight="27.0" prefWidth="215.0" text="Verbindung zur Datenbank trennen" />
+    </children>
+    <padding>
+        <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+    </padding>
+</VBox>
