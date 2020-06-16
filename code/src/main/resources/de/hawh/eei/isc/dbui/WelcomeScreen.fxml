@@ -11,9 +11,10 @@
          <font>
             <Font name="System Bold" size="18.0" />
          </font></Label>
-        <Button fx:id="NeuButton" alignment="CENTER" onAction="#switchToStart" prefHeight="27.0" prefWidth="215.0" text="Neuen Ehemaligen hinzufügen" />
-        <Button fx:id="AlleAnzeigenButton" alignment="CENTER" onAction="#switchToStart" prefHeight="27.0" prefWidth="215.0" text="Alle Ehemaligen anzeigen" />
-        <Button fx:id="EndeButton" alignment="CENTER" onAction="#switchToStart" prefHeight="27.0" prefWidth="215.0" text="Verbindung zur Datenbank trennen" />
+        <Button fx:id="NeuButton" alignment="CENTER" onAction="#switchToAdd" prefHeight="27.0" prefWidth="400.0" text="Neuen Ehemaligen hinzufügen" />
+        <Button fx:id="AlleAnzeigenButton" alignment="CENTER" onAction="#switchToShowAll" prefHeight="27.0" prefWidth="400.0" text="Alle Ehemaligen anzeigen" />
+        <Button fx:id="HAWEhemalige" alignment="CENTER" onAction="#switchToHAW" prefHeight="27.0" prefWidth="400.0" text="Alle Ehemaligen anzeigen die an der HAW Informatik studiert haben" />
+        <Button fx:id="EndeButton" alignment="CENTER" onAction="#switchToEnd" prefHeight="27.0" prefWidth="400.0" text="Verbindung zur Datenbank trennen" />
     </children>
     <padding>
         <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />

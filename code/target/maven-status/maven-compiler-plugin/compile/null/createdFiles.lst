@@ -1,3 +1,10 @@
+de/hawh/eei/isc/dbui/HAWScreen.class
+de/hawh/eei/isc/dbui/DecisionScreen.class
+de/hawh/eei/isc/dbui/AddScreen.class
+de/hawh/eei/isc/dbui/EndScreen.class
+de/hawh/eei/isc/dbui/CancelScreen.class
 de/hawh/eei/isc/dbui/App.class
 de/hawh/eei/isc/dbui/StartController.class
+de/hawh/eei/isc/dbui/ShowAllScreen.class
 de/hawh/eei/isc/dbui/WSController.class
+de/hawh/eei/isc/dbui/SuccessScreen.class

@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class DecisionScreen {
     @FXML
-    private void switchToSecondary() throws IOException {
+    private void switchToWelcome() throws IOException {
         App.setRoot("WelcomeScreen");
     }
 
